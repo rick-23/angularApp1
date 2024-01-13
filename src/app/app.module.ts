@@ -5,8 +5,8 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
 @NgModule({
-  declarations: [AppComponent, HighLightDirective], // Declare your component and directive here
+  declarations: [HighLightDirective], // Declare your component and directive here
   imports: [CommonModule, RouterModule],
-  bootstrap: [AppComponent],
+  bootstrap: [],
 })
 export class AppModule {}
